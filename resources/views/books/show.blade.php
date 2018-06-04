@@ -28,7 +28,7 @@
 
 
 {!! Form::model($book, ['route' => ['books.destroy', $book->id], 'method' => 'delete']) !!}
-        {!! Form::submit('削除') !!}
+        {!! Form::submit('削除', ['class' => 'btn btn-primary']) !!}
     {!! Form::close() !!}
 @endsection
 

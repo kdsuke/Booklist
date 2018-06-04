@@ -20,7 +20,7 @@
         {!! Form::text('author') !!}
         
 
-        {!! Form::submit('投稿') !!}
+        {!! Form::submit('投稿', ['class' => 'btn btn-primary'])!!}
 
     {!! Form::close() !!}
 
