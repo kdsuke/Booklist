@@ -26,7 +26,7 @@
             </tbody>
         </table>
     @endif
-    {!! link_to_route('books.create', '読み終わった本の投稿', null, ['class' => 'btn btn-primary']) !!}
+{!! link_to_route('books.create', '新たに読み終わった本の追加', null, ['class' => 'btn btn-primary']) !!}
 
 
 

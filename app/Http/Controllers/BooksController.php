@@ -108,7 +108,7 @@ class BooksController extends Controller
             ]);
         
         
-        $book = new Book;
+        $book = Book::find($id);
         $book->title = $request->title;
         $book->content = $request->content;
         $book->author = $request->author;
